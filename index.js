@@ -11,8 +11,10 @@ function writeCards(cards) {
     return thankYouMessage;
 }
 writeCards(cards);
-function countDown(){
-    for(let i = 10; i >= 0; i--) {
-        console.log(i)
-    }  
+function countDown() {
+    let i = 10;
+    while (i >= 0) {
+        console.log(i);
+        i--;
+    }
 }
